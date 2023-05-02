@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-hero {
+  background-image: url("assets/img/pabrik-depan.jpeg");
+  background-attachment: fixed;
+}
+
+.bg-body {
+  background-image: url("assets/img/pabrik-parkiran.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.06;
+}
+
